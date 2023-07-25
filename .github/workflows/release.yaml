@@ -19,7 +19,7 @@ jobs:
       - name: Build with Maven
         run: mvn --batch-mode --update-snapshots package
       - name: Set projects Maven version to tag
-        run: mvn versions:set "-DnewVersion=${{ github.ref }}"
+        run: mvn versions:set "-DnewVersion=${{ github.ref_name }}"
       - name: Publish to GitHub Packages
         run: mvn --batch-mode deploy
         env:
