@@ -1,0 +1,10 @@
+# V1TenantFreemium
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**activeClustersLimit** | **Integer** |  |  [optional]
+**isFreemium** | **Boolean** |  |  [optional]
+**isUnlimited** | **Boolean** |  |  [optional]
+**overageUsageLimit** | [**BigDecimal**](BigDecimal.md) |  |  [optional]
+**totalUsageLimit** | [**BigDecimal**](BigDecimal.md) |  |  [optional]
