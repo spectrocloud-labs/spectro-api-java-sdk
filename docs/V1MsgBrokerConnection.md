@@ -1,0 +1,30 @@
+# V1MsgBrokerConnection
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**account** | **String** |  |  [optional]
+**accountUid** | **String** |  |  [optional]
+**cid** | **Integer** |  |  [optional]
+**cluster** | [**V1MsgBrokerConnectionCluster**](V1MsgBrokerConnectionCluster.md) |  |  [optional]
+**cpu** | [**BigDecimal**](BigDecimal.md) |  |  [optional]
+**duplicationCount** | **Integer** |  |  [optional]
+**iP** | **String** |  |  [optional]
+**idle** | **String** |  |  [optional]
+**inBytes** | **Integer** |  |  [optional]
+**inMsgs** | **Integer** |  |  [optional]
+**lang** | **String** |  |  [optional]
+**lastActivity** | [**OffsetDateTime**](OffsetDateTime.md) |  |  [optional]
+**name** | **String** |  |  [optional]
+**outBytes** | **Integer** |  |  [optional]
+**outMsgs** | **Integer** |  |  [optional]
+**pendingBytes** | **Integer** |  |  [optional]
+**port** | **Integer** |  |  [optional]
+**rtt** | **String** |  |  [optional]
+**start** | [**OffsetDateTime**](OffsetDateTime.md) |  |  [optional]
+**subscriptionList** | **List&lt;String&gt;** |  |  [optional]
+**subscriptions** | **Integer** |  |  [optional]
+**tLSCipherSuite** | **String** |  |  [optional]
+**tLSVersion** | **String** |  |  [optional]
+**uptime** | **String** |  |  [optional]
+**version** | **String** |  |  [optional]
